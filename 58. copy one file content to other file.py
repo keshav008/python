@@ -1,0 +1,11 @@
+f1=open('student.txt',mode='r')
+f2=open('keshav.txt',mode='w')
+data=f1.read()
+f2.write(data)
+f1.close()
+f2.close()
+# # reading data from second file
+f=open('keshav.txt',mode='r')
+data2=f.read()
+print(data2)
+f.close()

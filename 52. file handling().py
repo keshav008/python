@@ -1,0 +1,8 @@
+f= open('student.txt',mode='a+',encoding='utf-8')
+print('filename is',f.name)
+print('filemode is',f.mode)
+print('filereadble',f.readable())
+print('filewriteable',f.writable())
+print('file closed',f.closed)
+f.close()
+print('file closed',f.closed)
